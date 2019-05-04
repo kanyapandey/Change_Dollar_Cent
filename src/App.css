@@ -1,3 +1,13 @@
+html {
+  height: 100%;
+  width: 100%;
+  background: rgb(78, 42, 132);
+}
+
+body {
+  margin-top: 70px;
+}
+
 .App {
   text-align: center;
   display: flex;
@@ -28,19 +38,6 @@
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-body {
-  margin-top: 70px;
-}
-
 .row {
   display: flex;
 }
@@ -49,6 +46,30 @@ body {
   margin: 0 auto;
 }
 
-.pCenter {
+.pCenter,
+.h1Center {
   text-align: center;
+  font-weight: 400;
+}
+
+.h1Center {
+  color: rgb(255, 204, 51);
+}
+
+.main-container {
+  color: white;
+  background: #000;
+  padding-top: 4%;
+  padding-bottom: 4%;
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
